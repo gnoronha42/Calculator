@@ -1,0 +1,32 @@
+body {
+    text-align: center;
+    background-color: hotpink;
+    font-size: 37px;
+}
+
+.display  {
+    display: inline-grid;
+    text-align: initial;
+}
+
+#prinput {
+    width: 364px;
+    height: 47px;
+}
+
+.btn {
+    height: 70px;
+    background-color : #000000 ;
+    border: 5px solid  ;
+}
+
+.pin {
+    color: red; 
+    background-color:#1f336c ; 
+    cursor:hand; 
+    padding:9px; 
+    border:0;
+    height:  70px;  
+    margin: 1px;
+    width:  46px;
+}

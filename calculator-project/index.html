@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="calculator-style.css">
+</head>
+<body>
+  <div class ="main">
+    
+    <div class ="display">
+
+      
+      <form name="form" acton>
+        <input id=prinput type="number" name= "input" value="0">
+        
+        
+        
+        <div class="btn" >
+          
+          <input   class="pin"   type="button" value="0"  name="btn_0" onclick= "numPressed(0)" >
+          <input   class="pin"   type="button" value="1"  name="btn_1" onclick= "numPressed(1)" >
+          <input   class="pin"   type="button" value="2"  name="btn_2" onclick= "numPressed(2)" >
+          <input   class="pin"   type="button" value="3"  name="btn_3" onclick= "numPressed(3)" >
+          <input   class="pin"   type="button" value="4"  name="btn_4" onclick= "numPressed(4)" >
+        </div>
+        
+        
+        <div class = "btn">
+          
+          <input  class="pin" type="button" value="5"   name="btn_5"   onclick= numPressed(5)>
+          <input  class="pin" type="button" value="6"   name="btn_6"   onclick= numPressed(6)>
+          <input  class="pin" type="button" value="7"   name="btn_7"   onclick= numPressed(7)>
+          <input  class="pin" type="button" value="8"   name="btn_8"   onclick= numPressed(8)>
+          <input  class="pin" type="button" value="9"   name="btn_9"   onclick= numPressed(9)>
+        </div>
+        
+        <div class="btn">
+          
+          <input  class="pin"   type="button" value="/" name="btn_divi"   onclick= "calculate('/')">
+          <input  class="pin"   type="button" value="+" name="btn_soma"   onclick= "calculate('+')">
+          <input  class="pin"   type="button" value="*" name="btn_mult"   onclick= "calculate('*')">
+          <input  class="pin"   type="button" value="-" name="btn_subt"   onclick= "calculate('-')">
+          <input  class="pin" type="button" value="=" name="btn_igual"    onclick="calculate('=')" >
+          <input  class="pin" type="reset" value="AC"  onclick="">
+          <input  class="pin" type="button" value="." name="btn_pont"   onclick="point()">
+        </div>
+        
+        
+      </form>
+      
+    </div> 
+    
+  </div>
+  <script src="principal.js"></script>
+</body>
+</html>
